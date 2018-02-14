@@ -38,7 +38,7 @@ def hello(name)
 end
 
 def starts_with_consonant? s
-  	/^[b-df-hj-np-tv-z]/i.match(s) != nil ||	/^[1,2,3,4,5,6,7,8,9,0]/i.match(s) != nil || /^[~,!,@,#,$,%,^,&,*,(,),_,+,=]/i.match(s) != nil
+  	/^[b-df-hj-np-tv-z]/i.match(s) != nil || /^[1,2,3,4,5,6,7,8,9,0]/i.match(s) != nil || /^[~,!,@,#,$,%,^,&,*,(,),_,+,=]/i.match(s) != nil
 end
 
 def binary_multiple_of_4? s
